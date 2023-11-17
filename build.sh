@@ -2,22 +2,15 @@
 
 # 打印 info
 make info
-
 # 主配置名称
 PROFILE="generic"
-
 PACKAGES=""
-
 # 主题
 PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
-
 # 常用kmod组件
-PACKAGES="$PACKAGES git bash cfdisk"
+PACKAGES="$PACKAGES git bash"
 PACKAGES="$PACKAGES kmod-usb2 kmod-usb3 kmod-usb-ohci kmod-usb-uhci"
-
-
-# Diskman 磁盘管理
-PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
+PACKAGES="$PACKAGES kmod-usb-printer"
 
 # 常用软件服务
 PACKAGES="$PACKAGES luci-i18n-usb-printer-zh-cn"
@@ -29,40 +22,26 @@ PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-uugamebooster-zh-cn"
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
-
-
 # OpenClash 代理
 PACKAGES="$PACKAGES luci-app-openclash"
-
-# 常用的网络存储组件
 # 文件助手
 PACKAGES="$PACKAGES luci-app-fileassistant"
-
 # Docker 组件
 PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
-
 # alsit 组件
 PACKAGES="$PACKAGES alist luci-app-alist"
 # XUNLEI组件
 # PACKAGES="$PACKAGES libc6-compat xunlei luci-app-xunlei luci-i18n-xunlei-zh-cn"
-
 # 宽带监控 Nlbwmon
 PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
-
-
-# 一些自己需要的内核组件
-PACKAGES="$PACKAGES kmod-usb-printer kmod-lp"
+# Diskman 磁盘管理
+PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # zsh 终端
 PACKAGES="$PACKAGES zsh"
 # Vim 完整版，带语法高亮
 PACKAGES="$PACKAGES vim-fuller"
-
-
-
-
 # 界面翻译补全
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-filetransfer-zh-cn"
-
 # 移除不需要的包
 
 # 一些自定义文件
@@ -70,5 +49,4 @@ FILES="files"
 
 # 禁用 openssh-server 的 sshd 服务和 docker 的 dockerd 服务以防止冲突
 DISABLED_SERVICES="sshd"
-
 make image PROFILE="$PROFILE" PACKAGES="$PACKAGES" FILES="$FILES" DISABLED_SERVICES="$DISABLED_SERVICES"
