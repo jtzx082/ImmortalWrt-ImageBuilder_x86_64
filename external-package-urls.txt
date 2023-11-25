@@ -1,2 +1,1 @@
 https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest/releases/download/v1.5.2/luci-app-cloudflarespeedtest_1.5.2_all.ipk
-https://github.com/vernesong/OpenClash/releases/download/v0.45.152-beta/luci-app-openclash_0.45.152-beta_all.ipk
