@@ -1,1 +1,1 @@
-https://github.com/SunHHB/OpenWRT-CI/releases/latest/download/luci-i18n-alist-zh-cn_git-23.228.33162-d69f83d-1_all.ipk
+https://github.com/SunHHB/ImmortalWrt-ImageBuilder/raw/main/packages/luci-i18n-alist-zh-cn_git-23.383.25576-ef326c3-1_all.ipk
