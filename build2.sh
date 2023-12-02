@@ -29,8 +29,10 @@ PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-app-fileassistant"
 # Docker 组件
 PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
-# alsit 组件
+# homeproxy 组件
 PACKAGES="$PACKAGES alist luci-i18n-alist-zh-cn"
+# alsit 组件	
+PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # XUNLEI组件
 # PACKAGES="$PACKAGES libc6-compat xunlei luci-app-xunlei luci-i18n-xunlei-zh-cn"
 # 宽带监控 Nlbwmon
