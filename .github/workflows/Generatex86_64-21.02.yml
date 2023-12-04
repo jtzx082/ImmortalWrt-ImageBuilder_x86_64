@@ -56,7 +56,6 @@ jobs:
           cat external-package-urls.txt | xargs wget -P packages
           wget https://github.com/SunHHB/luci-app-alist/releases/latest/download/openwrt-21.02.7-x86_64.tar.gz
           tar -zxvf openwrt-21.02.7-x86_64.tar.gz
-          mv packages_ci/ packages
           rm -rf openwrt-21.02.7-x86_64.tar.gz
       
       - name: Run Patch and DIY Scripts
