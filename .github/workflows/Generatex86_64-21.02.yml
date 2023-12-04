@@ -53,10 +53,9 @@ jobs:
       - name: Download External Packages
         working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
         run: |
-          cat external-package-urls.txt | xargs wget -P packages
-          wget https://github.com/SunHHB/luci-app-alist/releases/latest/download/openwrt-21.02.7-x86_64.tar.gz
-          tar -zxvf openwrt-21.02.7-x86_64.tar.gz
-          rm -rf openwrt-21.02.7-x86_64.tar.gz
+          cat external-package-urls21.02.txt | xargs wget -P packages 
+          ls *.tar.gz | xargs -n1 tar xzvf
+          rm *tar.gz
       
       - name: Run Patch and DIY Scripts
         working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
