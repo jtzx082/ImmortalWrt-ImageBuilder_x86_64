@@ -1,3 +1,3 @@
 https://github.com/SunHHB/ImmortalWrt-ImageBuilder/raw/main/packages/luci-i18n-alist-zh-cn_git-23.383.25576-ef326c3-1_all.ipk
-https://github.com/SunHHB/luci-app-alist/releases/latest/download/openwrt-23.05.1-x86_64.tar.gz
-https://github.com/SunHHB/luci-app-mosdns/releases/latest/download/openwrt-23.05.1-x86_64.tar.gz
+https://github.com/SunHHB/luci-app-alist/releases/latest/download/luci-app-alist_openwrt-23.05.1-x86_64.tar.gz
+https://github.com/SunHHB/luci-app-mosdns/releases/latest/download/luci-app-mosdns_openwrt-23.05.1-x86_64.tar.gz
