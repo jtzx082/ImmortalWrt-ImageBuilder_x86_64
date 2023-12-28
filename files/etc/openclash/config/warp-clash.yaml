@@ -5,54 +5,85 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name:  WARP,type: wireguard,server: 162.159.192.8,port: 1014,ip: 172.16.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-,private-key: sNF6rNB0NT6OSIgDkDStVr0PW5Brbp8bxbZxEAmYoGM=,mtu: 1280,udp: true}
+  - {name:  WARP_A,type: wireguard,server: 162.159.192.47,port: 928,ip: 172.16.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: sNF6rNB0NT6OSIgDkDStVr0PW5Brbp8bxbZxEAmYoGM=,mtu: 1280,udp: true}
+  - {name:  WARP_B,type: wireguard,server: 162.159.192.47,port: 928,ip: 172.16.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: QNuUCkaXHCzPI4a9AOH2nEASpAonn3dQ6e93lMG4IXc=,mtu: 1280,udp: true}
+  - {name:  WARP_C,type: wireguard,server: 162.159.192.171,port: 928,ip: 172.16.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: uMta28FvGh4dK//Xidqwotxqpbvpz0cJvRhconXm+3c=,mtu: 1280,udp: true}
+  - {"name":"testworkers","type":"vless","server":"104.17.239.92","port":2052,"uuid":"63ba7129-3915-4515-ac59-02bc9d279b80","tls":false,"servername":"test.discmate.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"test.discmate.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"test","type":"vless","server":"www.visa.com.hk","port":2052,"uuid":"63ba7129-3915-4515-ac59-02bc9d279b80","tls":false,"servername":"test.discmate.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"test.discmate.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - WARP
+      - WARP_A
+      - WARP_B
+      - WARP_C
+      - testworkers
+      - test
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - WARP
+      - WARP_A
+      - WARP_B
+      - WARP_C
+      - testworkers
+      - test
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - WARP
+      - WARP_A
+      - WARP_B
+      - WARP_C
+      - testworkers
+      - test
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - WARP
+      - WARP_A
+      - WARP_B
+      - WARP_C
+      - testworkers
+      - test
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - WARP
+      - WARP_A
+      - WARP_B
+      - WARP_C
+      - testworkers
+      - test
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - WARP
+      - WARP_A
+      - WARP_B
+      - WARP_C
+      - testworkers
+      - test
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - WARP
+      - WARP_A
+      - WARP_B
+      - WARP_C
+      - testworkers
+      - test
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +106,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - WARP
+      - WARP_A
+      - WARP_B
+      - WARP_C
+      - testworkers
+      - test
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
