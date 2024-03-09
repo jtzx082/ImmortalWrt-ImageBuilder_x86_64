@@ -10,9 +10,9 @@ CLASH_DEV_URL="https://raw.githubusercontent.com/vernesong/OpenClash/core/master
 CLASH_TUN_URL=$(curl -fsSL https://api.github.com/repos/vernesong/OpenClash/contents/master/premium\?ref\=core | grep download_url | grep amd64 | awk -F '"' '{print $4}')
 CLASH_META_URL="https://raw.githubusercontent.com/vernesong/OpenClash/core/master/meta/clash-linux-amd64.tar.gz"
 
-CORE_DEV="https://github.com/SunHHB/ShellCrash/blob/master/bin/meta/clash-linux-amd64.tar.gz"
-CORE_TUN="https://github.com/SunHHB/ShellCrash/blob/master/bin/clashpre/clash-linux-amd64.tar.gz"
-CORE_MATE="https://github.com/SunHHB/ShellCrash/blob/master/bin/meta/clash-linux-amd64.tar.gz"
+CORE_DEV="https://github.com/SunHHB/ShellCrash/raw/master/bin/clash/clash-linux-amd64.tar.gz"
+CORE_TUN="https://github.com/SunHHB/ShellCrash/raw/master/bin/clashpre/clash-linux-amd64.tar.gz"
+CORE_MATE="https://github.com/SunHHB/ShellCrash/raw/master/bin/meta/clash-linux-amd64.tar.gz"
 
 
 GEO_MMDB="https://github.com/alecthw/mmdb_china_ip_list/raw/release/lite/Country.mmdb"
