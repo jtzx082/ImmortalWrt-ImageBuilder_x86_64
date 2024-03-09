@@ -39,7 +39,7 @@ jobs:
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with: 
           path: origin
 
@@ -71,7 +71,7 @@ jobs:
           bash build2.sh
 
       - name: Upload Firmware to Artifacts
-        uses: actions/upload-artifact@v3.1.2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.VENDOR }}-${{ env.VERSION }}-x86_64-images-${{ env.DATETIME }}
           path: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64/bin/targets/x86/64/*
