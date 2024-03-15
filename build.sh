@@ -12,7 +12,7 @@ PACKAGES="$PACKAGES git bash"
 PACKAGES="$PACKAGES kmod-usb2 kmod-usb3 kmod-usb-ohci kmod-usb-uhci usbutils"
 PACKAGES="$PACKAGES kmod-usb-printer"
 # MT76x2u 网卡驱动或无线组件
-PACKAGES="$PACKAGES kmod-mt76x2u hostapd wpa-supplicant"
+PACKAGES="$PACKAGES kmod-mt76x2u hostapd wpa-supplicant kmod-r8168"
 # 常用软件服务
 PACKAGES="$PACKAGES luci-i18n-usb-printer-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
