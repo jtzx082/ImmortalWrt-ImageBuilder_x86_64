@@ -25,8 +25,6 @@ PACKAGES="$PACKAGES luci-i18n-uugamebooster-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # OpenClash 代理
 PACKAGES="$PACKAGES luci-app-openclash"
-# 文件助手
-PACKAGES="$PACKAGES luci-app-fileassistant"
 # Docker 组件
 PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
 # homeproxy 组件
