@@ -22,6 +22,7 @@ PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-uugamebooster-zh-cn"
+PACKAGES="$PACKAGES luci-app-cloudflared"
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # OpenClash 代理
