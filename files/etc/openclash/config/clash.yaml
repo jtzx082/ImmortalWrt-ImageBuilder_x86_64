@@ -3626,5 +3626,27 @@ rules:
  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,173.245.48.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,103.21.244.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.22.200.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.31.4.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,141.101.64.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,108.162.192.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,190.93.240.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,188.114.96.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,197.234.240.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,198.41.128.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,162.158.0.0/15,🎯 全球直连,no-resolve
+ - IP-CIDR,104.16.0.0/13,🎯 全球直连,no-resolve
+ - IP-CIDR,104.24.0.0/14,🎯 全球直连,no-resolve
+ - IP-CIDR,172.64.0.0/13,🎯 全球直连,no-resolve
+ - IP-CIDR,131.0.72.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR6,2400:cb00::/32,🎯 全球直连,no-resolve
+ - IP-CIDR6,2606:4700::/32,🎯 全球直连,no-resolve
+ - IP-CIDR6,2803:f800::/32,🎯 全球直连,no-resolve
+ - IP-CIDR6,2405:b500::/32,🎯 全球直连,no-resolve
+ - IP-CIDR6,2405:8100::/32,🎯 全球直连,no-resolve
+ - IP-CIDR6,2c0f:f248::/32,🎯 全球直连,no-resolve
+ - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
