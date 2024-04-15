@@ -3,4 +3,4 @@ https://github.com/SunHHB/luci-app-alist/releases/latest/download/luci-app-alist
 https://github.com/SunHHB/luci-app-mosdns/releases/latest/download/luci-app-mosdns_openwrt-21.02.7-x86_64.tar.gz
 https://github.com/SunHHB/luci-app-ddns-go/releases/latest/download/luci-app-ddns-go_openwrt-21.02.7-x86_64.tar.gz
 https://github.com/SunHHB/luci-app-cloudflared/releases/latest/download/luci-app-cloudflared_openwrt-21.02.7-x86_64.tar.gz
-https://github.com/xiaorouji/openwrt-passwall/releases/download/4.76-1/passwall_packages_ipk_x86_64.zip
+https://github.com/SunHHB/OpenWRT-CI/releases/download/X64_immortalwrt.git-v23.05.2/luci-app-alist.tar.gz
