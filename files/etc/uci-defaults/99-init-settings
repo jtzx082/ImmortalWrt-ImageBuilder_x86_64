@@ -6,7 +6,7 @@
 # Set default LAN_IP AND themes
 # sed -i 's/192.168.1.1/192.168.5.1/' /etc/config/network
 uci batch << EOF
-set network.lan.ipaddr='192.168.5.1'
+set network.lan.ipaddr='192.168.8.1'
 set luci.main.mediaurlbase='/luci-static/argon'
 commit
 EOF
