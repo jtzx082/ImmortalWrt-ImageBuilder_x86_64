@@ -8,7 +8,7 @@ PACKAGES=""
 # 主题
 PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
 # 常用kmod组件
-PACKAGES="$PACKAGES git bash"
+PACKAGES="$PACKAGES git bash qrencode"
 PACKAGES="$PACKAGES kmod-usb2 kmod-usb3 kmod-usb-ohci kmod-usb-uhci usbutils"
 PACKAGES="$PACKAGES kmod-usb-printer"
 # MT76x2u 网卡驱动或无线组件
@@ -24,6 +24,7 @@ PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-uugamebooster-zh-cn"
 PACKAGES="$PACKAGES luci-app-cloudflared"
 PACKAGES="$PACKAGES luci-i18n-n2n-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-wireguard-zh-cn"
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # OpenClash 代理
