@@ -24,7 +24,6 @@ PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-uugamebooster-zh-cn"
 PACKAGES="$PACKAGES luci-app-cloudflared"
 PACKAGES="$PACKAGES luci-i18n-n2n-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-wireguard-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
