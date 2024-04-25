@@ -27,7 +27,7 @@ PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # OpenClash 代理
-# PACKAGES="$PACKAGES luci-app-openclash"
+PACKAGES="$PACKAGES luci-app-openclash"
 # Docker 组件
 # PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
 # homeproxy 组件
