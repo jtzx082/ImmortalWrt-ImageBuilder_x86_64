@@ -31,7 +31,7 @@ PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # Docker 组件
 # PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
 # homeproxy 组件
-# PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # alsit 组件	
 PACKAGES="$PACKAGES alist luci-i18n-alist-zh-cn"
 # mosdns 组件	
