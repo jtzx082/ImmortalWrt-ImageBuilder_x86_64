@@ -32,7 +32,7 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # 文件助手
 PACKAGES="$PACKAGES luci-app-fileassistant"
 # Docker 组件
-PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
+# PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
 # alsit 组件
 PACKAGES="$PACKAGES alist luci-i18n-alist-zh-cn"
 # mosdns 组件
