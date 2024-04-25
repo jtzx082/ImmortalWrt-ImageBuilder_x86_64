@@ -23,12 +23,13 @@ PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-uugamebooster-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-cloudflared-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-n2n-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # OpenClash 代理
-PACKAGES="$PACKAGES luci-app-openclash"
+# PACKAGES="$PACKAGES luci-app-openclash"
 # Docker 组件
-PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
+# PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
 # homeproxy 组件
 # PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # alsit 组件	
