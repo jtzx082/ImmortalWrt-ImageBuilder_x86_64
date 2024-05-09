@@ -9,8 +9,10 @@ PACKAGES=""
 PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
 # 常用kmod组件
 PACKAGES="$PACKAGES git bash qrencode"
-PACKAGES="$PACKAGES kmod-usb2 kmod-usb3 kmod-usb-ohci kmod-usb-uhci usbutils"
+PACKAGES="$PACKAGES kmod-usb2 kmod-usb3 kmod-usb-ohci kmod-usb-uhci usbutils "
 PACKAGES="$PACKAGES kmod-usb-printer"
+# openclash 依赖补
+PACKAGES="$PACKAGES iptables-mod-tproxy kmod-inet-diag"
 # MT76x2u 网卡驱动或无线组件
 PACKAGES="$PACKAGES kmod-mt76x2u hostapd wpa-supplicant kmod-r8168"
 # 常用软件服务
