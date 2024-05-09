@@ -11,8 +11,7 @@ PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES git bash qrencode"
 PACKAGES="$PACKAGES kmod-usb2 kmod-usb3 kmod-usb-ohci kmod-usb-uhci usbutils "
 PACKAGES="$PACKAGES kmod-usb-printer"
-# openclash 依赖补
-PACKAGES="$PACKAGES iptables-mod-tproxy kmod-inet-diag"
+
 # MT76x2u 网卡驱动或无线组件
 PACKAGES="$PACKAGES kmod-mt76x2u hostapd wpa-supplicant kmod-r8168"
 # 常用软件服务
@@ -30,11 +29,12 @@ PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # OpenClash 代理
+PACKAGES="$PACKAGES iptables-mod-tproxy kmod-inet-diag"
 PACKAGES="$PACKAGES luci-app-openclash"
 # 文件助手
 PACKAGES="$PACKAGES luci-app-fileassistant"
 # Docker 组件
-PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
+# PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
 # alsit 组件
 PACKAGES="$PACKAGES alist luci-i18n-alist-zh-cn"
 # mosdns 组件
