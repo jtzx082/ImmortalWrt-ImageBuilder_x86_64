@@ -6,8 +6,9 @@ log-level: info
 external-controller: :9090
 proxies:
   - {"name":"workersA","type":"vless","server":"www.digitalocean.com","port":443,"uuid":"63ba7129-3915-4515-ac59-02bc9d279b80","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ws.sunhome.cloudns.org","ws-opts":{"path":"/?ed=2048","headers":{"host":"ws.sunhome.cloudns.org"}}}
-  - {"name":"workersB","type":"vless","server":"www.visa.com.hk","port":443,"uuid":"63ba7129-3915-4515-ac59-02bc9d279b80","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ws.sunhome.cloudns.org","ws-opts":{"path":"/?ed=2048","headers":{"host":"ws.sunhome.cloudns.org"}}}
-  - {"name":"workersC","type":"vless","server":"jumpvg.com","port":443,"uuid":"63ba7129-3915-4515-ac59-02bc9d279b80","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ws.sunhome.cloudns.org","ws-opts":{"path":"/?ed=2048","headers":{"host":"ws.sunhome.cloudns.org"}}}
+  - {"name":"workersB","type":"vless","server":"freeyx.cloudflare88.eu.org","port":443,"uuid":"63ba7129-3915-4515-ac59-02bc9d279b80","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ws.sunhome.cloudns.org","ws-opts":{"path":"/?ed=2048","headers":{"host":"ws.sunhome.cloudns.org"}}}
+  - {"name":"workersC","type":"vless","server":"www.visa.com.sg","port":443,"uuid":"63ba7129-3915-4515-ac59-02bc9d279b80","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ws.sunhome.cloudns.org","ws-opts":{"path":"/?ed=2048","headers":{"host":"ws.sunhome.cloudns.org"}}}
+  - {"name":"workersD","type":"vless","server":"singapore.com","port":443,"uuid":"63ba7129-3915-4515-ac59-02bc9d279b80","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ws.sunhome.cloudns.org","ws-opts":{"path":"/?ed=2048","headers":{"host":"ws.sunhome.cloudns.org"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -16,6 +17,7 @@ proxy-groups:
       - workersA
       - workersB
       - workersC
+      - workersD
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -25,6 +27,7 @@ proxy-groups:
       - workersA
       - workersB
       - workersC
+      - workersD
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -34,6 +37,7 @@ proxy-groups:
       - workersA
       - workersB
       - workersC
+      - workersD
   - name: 📲 电报信息
     type: select
     proxies:
@@ -42,6 +46,7 @@ proxy-groups:
       - workersA
       - workersB
       - workersC
+      - workersD
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -50,6 +55,7 @@ proxy-groups:
       - workersA
       - workersB
       - workersC
+      - workersD
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -58,6 +64,7 @@ proxy-groups:
       - workersA
       - workersB
       - workersC
+      - workersD
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -67,6 +74,7 @@ proxy-groups:
       - workersA
       - workersB
       - workersC
+      - workersD
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -92,6 +100,7 @@ proxy-groups:
       - workersA
       - workersB
       - workersC
+      - workersD
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3405,6 +3414,8 @@ rules:
  - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
  - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
+ - DOMAIN-SUFFIX,rustdesk.com,🎯 全球直连
+ - DOMAIN-SUFFIX,rs-ny.rustdesk.com,🎯 全球直连
  - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
  - IP-CIDR,8.208.0.0/12,🎯 全球直连,no-resolve
  - IP-CIDR,14.1.112.0/22,🎯 全球直连,no-resolve
@@ -3641,6 +3652,8 @@ rules:
  - IP-CIDR,104.24.0.0/14,🎯 全球直连,no-resolve
  - IP-CIDR,172.64.0.0/13,🎯 全球直连,no-resolve
  - IP-CIDR,131.0.72.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,209.250.254.0/25,🎯 全球直连,no-resolve
+ - IP-CIDR,116.203.239.0/25,🎯 全球直连,no-resolve
  - IP-CIDR6,2400:cb00::/32,🎯 全球直连,no-resolve
  - IP-CIDR6,2606:4700::/32,🎯 全球直连,no-resolve
  - IP-CIDR6,2803:f800::/32,🎯 全球直连,no-resolve
