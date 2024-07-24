@@ -11,6 +11,17 @@ on:
         description: 将编译出的镜像上传到 Release
         required: false
         default: 'true'
+      LAN_IP:
+        description: 'LAN IP'
+        required: true
+        default: '192.168.5.1'
+        type: choice
+        options:
+          - '192.168.5.1'    
+          - '192.168.6.1' 
+          - '192.168.8.1' 
+          - '192.168.9.1' 
+          - '192.168.10.1'
 
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
