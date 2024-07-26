@@ -98,6 +98,9 @@ jobs:
           asset_name: ${{ github.event.repository.name }}-${{ github.sha }}
           tag: ${{ env.VENDOR }}-${{ env.VERSION }}-x86_64-${{ env.DATETIME }}
           overwrite: true
+          body: |
+            地址：${{ github.event.inputs.LAN_IP }}
+          
           
       - name: Delete Old Releases
         uses: dev-drprasad/delete-older-releases@master
