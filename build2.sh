@@ -24,6 +24,10 @@ PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-cloudflared-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-n2n-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
+# tailscale
+PACKAGES="$PACKAGES tailscale"
+PACKAGES="$PACKAGES luci-app-tailscale"
+PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
 
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
@@ -32,7 +36,7 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # Docker 组件
 # PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
 # homeproxy 组件
-PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # alsit 组件	
 PACKAGES="$PACKAGES alist luci-i18n-alist-zh-cn"
 # mosdns 组件	
