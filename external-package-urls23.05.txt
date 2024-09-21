@@ -1,3 +1,3 @@
-https://github.com/vernesong/OpenClash/releases/download/v0.46.014-beta/luci-app-openclash_0.46.014-beta_all.ipk
+https://github.com/vernesong/OpenClash/releases/download/v0.46.031-beta/luci-app-openclash_0.46.031-beta_all.ipk
 https://github.com/SunHHB/openwrt-cloudflared/releases/download/2024.8.3-r2/cloudflared_2024.8.3-r2_x86_64.ipk
 https://github.com/SunHHB/OpenWRT-CI/releases/latest/download/packages.tar.gz
