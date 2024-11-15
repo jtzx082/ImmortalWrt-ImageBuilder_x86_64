@@ -1,4 +1,4 @@
 https://github.com/SunHHB/OpenWRT-CI/releases/latest/download/packages.tar.gz
-https://github.com/vernesong/OpenClash/releases/download/v0.46.033-beta/luci-app-openclash_0.46.033-beta_all.ipk
+https://github.com/vernesong/OpenClash/releases/download/v0.46.050-beta/luci-app-openclash_0.46.050-beta_all.ipk
 https://github.com/moetayuko/openwrt-cloudflared/releases/download/2024.10.1-r1/cloudflared_2024.10.1-r1_x86_64.ipk
 https://github.com/nosignals/openwrt-neko/releases/download/mihomo_1.18.8/mihomo_1.18.8-2_x86_64.ipk
