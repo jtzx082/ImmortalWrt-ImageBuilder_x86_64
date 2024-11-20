@@ -29,9 +29,9 @@ PACKAGES="$PACKAGES luci-app-tailscale"
 PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
 
 # 花生壳
-PACKAGES="$PACKAGES phtunnel"
-PACKAGES="$PACKAGES luci-app-phtunnel"
-PACKAGES="$PACKAGES luci-i18n-phtunnel-zh-cn"
+# PACKAGES="$PACKAGES phtunnel"
+# PACKAGES="$PACKAGES luci-app-phtunnel"
+# PACKAGES="$PACKAGES luci-i18n-phtunnel-zh-cn"
 
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
