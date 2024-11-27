@@ -23,6 +23,7 @@ PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-cloudflared-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
+
 # tailscale
 PACKAGES="$PACKAGES tailscale"
 PACKAGES="$PACKAGES luci-app-tailscale"
@@ -33,6 +34,7 @@ PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
 # PACKAGES="$PACKAGES luci-app-phtunnel"
 # PACKAGES="$PACKAGES luci-i18n-phtunnel-zh-cn"
 
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # OpenClash 代理
