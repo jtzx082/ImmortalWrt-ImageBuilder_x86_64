@@ -34,7 +34,7 @@ PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
 # PACKAGES="$PACKAGES luci-app-phtunnel"
 # PACKAGES="$PACKAGES luci-i18n-phtunnel-zh-cn"
 
-PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # OpenClash 代理
