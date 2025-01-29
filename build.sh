@@ -54,29 +54,29 @@ PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
 
 #PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 # upnp
-PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # OpenClash 代理
-PACKAGES="$PACKAGES luci-app-openclash"
+#PACKAGES="$PACKAGES luci-app-openclash"
 # Docker 组件
 # PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
 # homeproxy 组件
 # PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # alsit 组件	
-PACKAGES="$PACKAGES alist luci-i18n-alist-zh-cn"
+#PACKAGES="$PACKAGES alist luci-i18n-alist-zh-cn"
 # mosdns 组件	
 PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
 # XUNLEI组件
 # PACKAGES="$PACKAGES libc6-compat xunlei luci-app-xunlei luci-i18n-xunlei-zh-cn"
 # 宽带监控 Nlbwmon
-PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
 # Diskman 磁盘管理
-PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # zsh 终端
 PACKAGES="$PACKAGES zsh"
 # Vim 完整版，带语法高亮
 PACKAGES="$PACKAGES vim-fuller"
 # 界面翻译补全
-PACKAGES="$PACKAGES luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-base-zh-cn"
 # 移除不需要的包
 
 # 一些自定义文件
