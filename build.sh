@@ -16,7 +16,7 @@ PACKAGES="$PACKAGES kmod-mt76x2u hostapd wpa-supplicant"
 # 常用软件服务
 PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn" 
+#PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn" 
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn" 
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn" 
 #PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn" 
