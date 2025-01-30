@@ -43,9 +43,9 @@ PACKAGES="$PACKAGES luci-i18n-cifs-mount-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
 
 # tailscale
-PACKAGES="$PACKAGES tailscale"
-PACKAGES="$PACKAGES luci-app-tailscale"
-PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
+#PACKAGES="$PACKAGES tailscale"
+#PACKAGES="$PACKAGES luci-app-tailscale"
+#PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
 
 # 花生壳
 # PACKAGES="$PACKAGES phtunnel"
@@ -64,7 +64,7 @@ PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
 # alsit 组件	
 #PACKAGES="$PACKAGES alist luci-i18n-alist-zh-cn"
 # mosdns 组件	
-PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
 # XUNLEI组件
 # PACKAGES="$PACKAGES libc6-compat xunlei luci-app-xunlei luci-i18n-xunlei-zh-cn"
 # 宽带监控 Nlbwmon
