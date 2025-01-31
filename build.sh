@@ -41,6 +41,8 @@ PACKAGES="$PACKAGES luci-app-dockerman"
 PACKAGES="$PACKAGES luci-lib-docker" 
 PACKAGES="$PACKAGES luci-i18n-cifs-mount-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
+PACKAGES="$PACKAGES luci-app-passwall2"
+PACKAGES="$PACKAGES luci-i18n-passwall2-zh-cn"
 
 # tailscale
 #PACKAGES="$PACKAGES tailscale"
