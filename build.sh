@@ -43,6 +43,8 @@ PACKAGES="$PACKAGES luci-i18n-cifs-mount-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
 PACKAGES="$PACKAGES luci-app-passwall2"
 PACKAGES="$PACKAGES luci-i18n-passwall2-zh-cn"
+PACKAGES="$PACKAGES luci-app-turboacc"
+PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn"
 
 # tailscale
 #PACKAGES="$PACKAGES tailscale"
