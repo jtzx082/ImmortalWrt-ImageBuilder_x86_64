@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Generate x86_64-24.10.0-rc4 immortalwrt Firmware
+name: Generate x86_64-24.10.0 immortalwrt Firmware
 
 # Controls when the workflow will run
 on:
@@ -27,7 +27,7 @@ env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   DOWNLOAD_BASE: https://downloads.immortalwrt.org
   VENDOR: immortalwrt
-  VERSION: 24.10.0-rc4
+  VERSION: 24.10.0
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
